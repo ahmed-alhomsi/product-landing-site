@@ -1,0 +1,224 @@
+<style>
+    #header
+    #contacts
+    body{
+        font-family: monospace;
+        color:white;
+        background-color:yellowgreen;
+    }
+    #sneakers-iframe{
+        justify-content: center;
+    }
+#navi-bar{
+    top=0px;
+    left=0px;
+    width: 100%;
+    overflow: hidden;
+    background-color:white;
+    position:fixed; 
+    top:0px; 
+    left: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+header{
+  position:fixed;
+}
+p{
+    text-align:center;
+}
+.navi-bar a{
+    text-align: center;
+    text-decoration:none;
+    float:left;
+    padding: 14px 16px;
+    font-size: 20px;
+    color:yellowgreen;
+}
+.navi-bar a:active{
+    background-color:grey;
+    color:black;
+}
+nav{
+  margin-top: 10px;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 0 50px;
+}
+li {
+  list-style: none;
+}
+.navi-list{
+    list-style: none;
+    top: 0px;
+    left:0px;
+    margin-top: 0px;
+    margin-left:0px;
+}
+ a:hover{
+    background-color:yellowgreen;
+    color:white;
+}
+#user-email{
+    margin-left: 400px;
+}
+#main-header{
+    margin: 50px;
+}
+input{
+    margin-left:500px;
+}
+h2{
+    margin-left: 500px;
+}
+.columns{
+    width: 33.3%;
+    float: left;
+    padding:8px;
+}
+.price{
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+    background-color:white;
+    border: 1px solid black;
+}
+.price:hover{
+    box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.445);
+}
+.grey{
+    background-color:grey;
+    font-weight: 400;
+}
+@media only screen and (max-width:600px){
+    .columns{
+        width: 100%;
+    }
+}
+.columns li{
+    padding:15px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+#right-card{
+    position: relative;
+    margin-left: 410px;
+}
+#left-card{
+    position:relative;
+}
+.order-button{
+    padding: 10px 18px;
+    border: none;
+    text-decoration: none;
+    color: yellowgreen;
+    background-color: white;
+}
+.order-button:hover{
+    color:white;
+    background-color:yellowgreen;
+}
+#email-button{
+color:yellowgreen;
+background-color: white;
+}
+#email-button:hover{
+    background-color:yellowgreen;
+    color:white;
+}
+li{
+    color:black;
+}
+.columns a{
+    color: rgba(0, 0, 0, 0.74);
+    font-size:x-large;
+}
+.icon {
+    margin-right: 20px;
+}
+.header{
+    background-color: rgba(163, 238, 12, 0.479);
+}
+#sneakers-iframe{ 
+    position: relative;
+    bottom: 225px;
+    left: 100px;
+}
+</style>
+
+<body>
+    <div>
+    <header id="header">
+      <div id="logo-image">
+      <img id="header-img" alt="sneakers-logo" src="https://www.google.com/search?q=sneakers+company+logo&sxsrf=ALeKk007Utztw9OMAWBOYrEBkR_JCpuKvQ:1610479161347&tbm=isch&source=iu&ictx=1&fir=mAspbkD_R1C3yM%252CgsT__FR9IZMJ1M%252C_&vet=1&usg=AI4_-kQLj3kINmBW6mdc_jSEkODZgrULsQ&sa=X&ved=2ahUKEwi2u9GyjpfuAhUE1xoKHdKnDcAQ9QF6BAgEEAE&biw=1366&bih=657#imgrc=mAspbkD_R1C3yM">
+      </div>
+       <nav id="nav-bar">
+                <ul class="navi-list">
+                    <li><a class="nav-link" href="#Main-page">main page</a></li>
+                    <li><a class="nav-link" href="#About-product">about the product</a></li>
+                    <li><a class="nav-link" href="#contacts">contacts</a></li>
+                    <li><a class="nav-link" href="#other-products">Other products</a></li>
+                </ul>
+            </nav>
+      </header>
+    <br>
+    <h1 id="main-header">Comfortable, high quality and made with precision</h1>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" type="email" placeholder="email" name="email">
+        <input id="submit" type="submit" target="https://www.freecodecamp.com/email-submit">Get our latest updates!</> 
+    </form><br>
+      <p id="Main-page">main page</p>
+            
+
+            <h2> <img class="icon" src="https://img.icons8.com/cotton/64/000000/sneakers--v2.png"/> highest quality sneakers on the market.</h2>
+     
+            <h2> <img class="icon" src="https://img.icons8.com/cotton/64/000000/sneakers--v4.png"/> suitable for jogging, running or simply going out on a walk.</h2>
+
+            <h2> <img class="icon" src="https://img.icons8.com/nolan/64/trainers.png"/> affordable prices, recommended by many health and sport experts.</h2>
+                   <div>
+            <iframe id="video" width="300" height="200" src="https://www.youtube.com/embed/Ax09Mrn200s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                </div>
+      <p id="other-products">other prosucts</p>
+      <p id="contacts">
+      originalsneakers.com contact.
+      </p>
+      <p id="About-product"> about product</p>
+            
+
+    <div id="prices div">
+        <div class="columns" id="left-card">
+            <ul class="price">
+                <li class="header">basic sneakers</li>
+                <li class="grey">500$</li>
+                <li>Lorem ipsum dolor.</li>
+                <li>enim ad minim veniam, quis nostrud exercitation.</li>
+                <li>aboris nisi ut aliquip ex ea commodo.</li>
+                <li class="grey"><a class="order-button" href="#">order</a></li>
+            </ul>
+        </div>
+        
+        <div class="columns" id="right-card">
+            <ul class="price">
+                <li class="header">premium sneakrs</li>
+                <li class="grey">1000$</li>
+                <li>Duis aute irure dolor in reprehenderit</li>
+                <li>Excepteur sint occaecat cupidatat non proident.</li>
+                <li>sunt in culpa qui anim id est laborum.</li>
+                <li class="grey"><a class="order-button" href="#">order</a></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <footer>
+        <span class="grey">
+                originalsneakers copyright claims 2021, all rights reserved.
+        </span>
+        </footer>
+    </div>
+</div>
+
+</body>
